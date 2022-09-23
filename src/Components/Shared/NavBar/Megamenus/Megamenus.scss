@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar .nav-megamenu{
+    position: fixed;
+    background:#fff;
+    overflow: hidden;
+    bottom:25%; 
+    padding: 1%;
+    display: none;
+    height: 80%;
+    width: 65%;
+    justify-content: space-between;
+    border-radius:  4%;
+    right: 20%;
+    
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 5vw;
+    }
+}
+.menu-links h5{
+    font-family: 'Roboto', sans-serif; ;
+    color: #707070;
+    
+    position: relative;
+    bottom: 20%;
+    right: -6%;
+    margin: 0%;
+    padding: 1%;
+    font-weight: 300;
+    width: fit-content;
+    max-width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.navbar .nav-megamenu .menu-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.menu-links  .inner-links{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    
+}
+ .navbar .inner-links .dev{
+    display: flex;
+    position: relative;
+    justify-content:space-between ;
+    color: black;
+    right: 51%;
+    margin: -4%;
+    padding: 3%;
+   top: 30%;
+   
+}
+
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+   
+
+ 
+    
+      
+        
+        
+        
+
+
+   
+
+
+
+/*Per Resources*/ 
+.navbar .nav-megamenus{
+    position: fixed;
+    background: #fff;
+    overflow: hidden;
+    bottom:57.2%; 
+    padding: 1%;
+    display: none;
+    height: 29%;
+    width: 15%;
+    justify-content: space-between;
+    border-radius:  4%;
+    right: 53%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 5vw;
+    }
+}
+  .inner-link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: 4%;
+}
+
+.navbar .nav-megamenus .menu-main-links{
+    
+    width: 131% ;
+    left: 56%;
+    position: relative;
+    margin: -4%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    
+   }
+
+   
+ 
